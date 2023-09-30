@@ -1,0 +1,15 @@
+resource "task" "pwd" {
+  name = "pwd"
+  uuid = "c30f2bd7-23a6-4910-822b-4683329981c1"
+  dateCreated = "2023-09-30T14:28:10.000Z"
+  executeTarget = "resource"
+  lastUpdated = "2023-09-30T14:28:10.000Z"
+  options = [
+    {
+      content = { uuid = "779a11ad-2d75-4cc1-bdb9-8586f02b6747" }
+      optionType = { code = "script" }
+    },
+    { optionType = { code = "shell.sudo" }, value = "on" }
+  ]
+  taskType = { code = "script" }
+}

@@ -1,0 +1,6 @@
+resource "file-content" "779a11ad-2d75-4cc1-bdb9-8586f02b6747" {
+  uuid = "779a11ad-2d75-4cc1-bdb9-8586f02b6747"
+  content = "pwd"
+  dateCreated = "2023-09-30T14:28:10.000Z"
+  lastUpdated = "2023-09-30T14:28:10.000Z"
+}
