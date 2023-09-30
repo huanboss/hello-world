@@ -1,0 +1,5 @@
+resource "task-set-task" "8e38eefe-8d8d-4249-a5a0-353a4ffa862b" {
+  uuid = "8e38eefe-8d8d-4249-a5a0-353a4ffa862b"
+  task = { name = "pwd" }
+  taskPhase = "provision"
+}

@@ -1,0 +1,7 @@
+resource "task-set" "test ex" {
+  name = "test ex"
+  uuid = "3f6d7590-ae9b-41a6-880b-cca0d8669b43"
+  dateCreated = "2023-09-30T14:34:17.000Z"
+  lastUpdated = "2023-09-30T14:34:17.000Z"
+  taskSetTasks = [ { uuid = "8e38eefe-8d8d-4249-a5a0-353a4ffa862b" } ]
+}
